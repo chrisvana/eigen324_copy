@@ -293,5 +293,9 @@
         "Eigen/SVD",
         "Eigen/UmfPackSupport"
     ],
-    "cc_include_dirs": [ "." ]
+    "cc_include_dirs": [ "." ],
+    "env": {
+      "EIGEN_INCLUDE_DIR": "$SRC_DIR"
+    }
 } }
+]
